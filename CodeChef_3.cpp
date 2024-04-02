@@ -2,20 +2,14 @@
 using namespace std;
 
 int main() {
-    int a,b;
-    cin>>a>>b;
-	// your code goes here
-	int Oneful_Pair=a+b+(a*b);
-	//Oneful_Pair=111;
-		
-	    if(Oneful_Pair==111)
-	    {
-	        cout << "YES";
-	    }
-	    else
-	    {
-	        cout << "NO";
-	    }
+    int t;
+    cin>>t;
+    while(t--){
+        int a,b;
+        cin>>a>>b;
+        int sum = a + b;
+        cout << sum << endl;
+    }
 	
 	return 0;
 }
